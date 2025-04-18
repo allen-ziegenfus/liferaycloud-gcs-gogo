@@ -2,7 +2,7 @@ This is a simple example of a Gogo Shell command for inspecting the contents of 
 
 Deploying: 
 
-Download the built jar file (e.g. <a href="https://github.com/allen-ziegenfus/liferaycloud-gcs-gogo/actions/runs/14528082627/artifacts/2967840714">workflow artifact</a>) and deploy to the /opt/liferay/deploy directory. After it deploys and resolves there should be new gogo shell commands available:
+Download the built jar file (e.g. <a href="https://github.com/allen-ziegenfus/liferaycloud-gcs-gogo/actions/runs/14528082627/artifacts/2967840714">workflow artifact</a>) and deploy to the /opt/liferay/deploy directory. After it deploys and resolves there should be new gogo shell commands available. 
 
 There are two commands:
 
@@ -23,3 +23,7 @@ Number of document_preview files: 3, total size: 217828
 Number of regular files: 80, total size: 12583262
 g! 
   </pre>
+
+Compatibility: 
+
+This module was tested with Liferay DXP 7.2, 7.3, 7.4 and 2025.q1.8 
