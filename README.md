@@ -4,9 +4,7 @@ This is a simple example of a Gogo Shell command for inspecting the contents of 
 
 ## Deploying: 
 
-Download the built jar file (e.g. <a href="https://github.com/allen-ziegenfus/liferaycloud-gcs-gogo/actions/runs/14528082627/artifacts/2967840714">workflow artifact</a>) and deploy to the /opt/liferay/deploy directory. After it deploys and resolves there should be new gogo shell commands available. 
-
-There are two commands:
+Download the built jar file (e.g. <a href="https://github.com/allen-ziegenfus/liferaycloud-gcs-gogo/actions/runs/14528082627/artifacts/2967840714">workflow artifact</a>) and deploy to the /opt/liferay/deploy directory. After it deploys and resolves there should be new gogo shell commands available. There are two commands:
 
 - countFiles - print a summary of files and their sizes
 - listFiles - print out all the files in the bucket
